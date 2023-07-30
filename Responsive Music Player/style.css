@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+
+body{
+    background-color: #B4B4B4;
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: 90px;
+  background-color: black;
+  color: aquamarine;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.artist{
+    font-weight: 500;
+    font-size: 20px;
+    color: #888;
+}
+
+.song{
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+}
+
+
+
+.player{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+video{
+    width: 100%;
+}
+
+.cover{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.wrapper{
+    background-color: #E9E9E9;
+    border: 1px solid transparent;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.3) 0px 10px 38px, rgba(0,0,0,0.22) 0px 15px 12px;
+}
